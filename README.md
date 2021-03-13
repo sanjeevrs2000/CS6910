@@ -1,9 +1,9 @@
 # Backpropagation and Optimization algorithms
  
 The aim of this project is to implement a backpropagation framework from scratch using only numpy and pandas.
-Using this backpropagation framework, various optimization algorithms where written. 
+Using this backpropagation framework, various optimization algorithms were coded. 
 
-The optimization algorithms where used to train a neutral network on the Fashion MNIST dataset.
+The optimization algorithms were used to train a neutral network on the Fashion MNIST dataset.
 The performance on training data by the neural networks with different hyperparameters where recorded and visualizd using WandB's sweep function
 and the best performing model was choosen based on validation accuracy.
 
@@ -19,7 +19,7 @@ Feed_forward and Back_propagation functions and all the optimization functions h
 
 In the function Train(), wandb.init, wandb.config and wandb.log have been commented so as to do a trial run without logging in wandb.
 
-The Train() returns the trained weights and biases which are used in the test function for prediction.
+Train() returns the trained weights and biases which are used in the test function for prediction.
 
 Run the following block to train the model and run it on test set to get predictions.
 
